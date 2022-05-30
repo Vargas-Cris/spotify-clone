@@ -9,7 +9,7 @@ import Foundation
 
 class Request {
     
-    let token  = "BQA78MJ5kf3i5Nf7TKjmQZM32Ae9aWIf9Km-DgSqh38EEVznVDNufQsUCS0igqzvFj35EXokOfntESfnqeJ_NIF0u0oWa55plisTK_RCzJQvAR1obs_PWB6HJE6RW8uxUCGTSXux41P8vsjfSfypU9nmJyTOnDLA4DiSSfk_v0-0XdK35hSVqA"
+    let token  = "BQBJVOH5anBRhMwpr0lx0RM-6MuMSE2KWJKzWctq4ctbuIrXLtKbd-lVwhyNnmilEsasIYyWd4iux5zb_FTPgXJ7_E3z8pStuFW7VjnuJyJrsaChrAeT_J77utEcuxz005WZZ-XiwyOgFMlWCs7yfmPQmRk1Nowppg0"
     
     let BASE_URL = "https://api.spotify.com/v1/"
     

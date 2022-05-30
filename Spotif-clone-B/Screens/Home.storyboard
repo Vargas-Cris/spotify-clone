@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Library-->
+        <!--Library View Controller-->
         <scene sceneID="NGI-Om-qZS">
             <objects>
                 <viewController id="Mfb-C0-Wzf" customClass="LibraryViewController" customModule="Spotif_clone_B" customModuleProvider="target" sceneMemberID="viewController">
@@ -66,15 +66,26 @@
                         <viewLayoutGuide key="safeArea" id="IUY-Tx-qbl"/>
                         <color key="backgroundColor" name="darkColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Library" image="books.vertical.fill" catalog="system" id="IXC-3W-VI9"/>
+                    <navigationItem key="navigationItem" id="SIn-ov-Rcz"/>
                     <connections>
                         <outlet property="imageProfile" destination="0zs-Rt-ZeZ" id="7qS-LC-JUW"/>
                         <outlet property="tableView" destination="eBX-X4-CM8" id="PI7-2G-uvo"/>
+                        <segue destination="95m-Mx-Rvr" kind="show" identifier="detail" id="BSH-3T-fsS"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="l3g-Wd-zAo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-568.1159420289855" y="877.90178571428567"/>
+            <point key="canvasLocation" x="342.02898550724638" y="877.90178571428567"/>
+        </scene>
+        <!--PlaylistDetail-->
+        <scene sceneID="vzL-Kv-w3B">
+            <objects>
+                <viewControllerPlaceholder storyboardName="PlaylistDetail" id="95m-Mx-Rvr" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="cDf-l2-x5D"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="V2g-AO-zaV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="847.82608695652175" y="868.52678571428567"/>
         </scene>
         <!--Search-->
         <scene sceneID="fob-RK-0ga">
@@ -90,7 +101,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SAq-Vi-1Ge" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="324" y="383"/>
+            <point key="canvasLocation" x="1233.3333333333335" y="382.36607142857139"/>
         </scene>
         <!--Home-->
         <scene sceneID="FTp-TM-Uxu">
@@ -121,12 +132,31 @@
                     <connections>
                         <segue destination="MAv-CN-o1v" kind="relationship" relationship="viewControllers" id="lY9-mW-olv"/>
                         <segue destination="VXe-n4-Zxm" kind="relationship" relationship="viewControllers" id="3pE-eD-wKx"/>
-                        <segue destination="Mfb-C0-Wzf" kind="relationship" relationship="viewControllers" id="2si-1p-CRG"/>
+                        <segue destination="PEg-BK-Flr" kind="relationship" relationship="viewControllers" id="2si-1p-CRG"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nBC-iL-4rc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-566" y="79"/>
+        </scene>
+        <!--Library-->
+        <scene sceneID="Zwq-n2-Ym3">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="PEg-BK-Flr" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Library" image="books.vertical.fill" catalog="system" id="IXC-3W-VI9"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="SzK-zk-ryw">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Mfb-C0-Wzf" kind="relationship" relationship="rootViewController" id="0sT-2R-tiM"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nRg-Ok-wlQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-568.1159420289855" y="877.90178571428567"/>
         </scene>
     </scenes>
     <resources>
@@ -134,7 +164,7 @@
         <image name="homekit" catalog="system" width="128" height="106"/>
         <image name="magnifyingglass" catalog="system" width="128" height="115"/>
         <namedColor name="darkColor">
-            <color red="0.047058823529411764" green="0.039215686274509803" blue="0.031372549019607843" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.046999998390674591" green="0.039000000804662704" blue="0.030999999493360519" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

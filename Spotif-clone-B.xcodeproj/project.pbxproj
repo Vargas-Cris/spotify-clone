@@ -16,10 +16,18 @@
 		48D9F03228302C76006A1F64 /* Spotify+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D9F03128302C76006A1F64 /* Spotify+String.swift */; };
 		48D9F03428302C93006A1F64 /* Spotify+Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D9F03328302C93006A1F64 /* Spotify+Image.swift */; };
 		48D9F03628303EAA006A1F64 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48D9F03528303EA9006A1F64 /* Home.storyboard */; };
-		48D9F0382830AE22006A1F64 /* PlayList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D9F0372830AE22006A1F64 /* PlayList.swift */; };
+		48D9F0382830AE22006A1F64 /* Playlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D9F0372830AE22006A1F64 /* Playlist.swift */; };
 		48D9F03A2830AEB4006A1F64 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D9F0392830AEB4006A1F64 /* Request.swift */; };
 		48D9F03C2830B102006A1F64 /* PlayListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D9F03B2830B101006A1F64 /* PlayListViewModel.swift */; };
 		48D9F03E2830B21A006A1F64 /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D9F03D2830B21A006A1F64 /* LibraryViewController.swift */; };
+		5B837D1928381C9900E81A7B /* PlayListDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B837D1828381C9900E81A7B /* PlayListDetail.swift */; };
+		5B837D1B2838373200E81A7B /* PlayListDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B837D1A2838373200E81A7B /* PlayListDetailViewModel.swift */; };
+		5B837D1D28383A7100E81A7B /* PlaylistDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B837D1C28383A7100E81A7B /* PlaylistDetail.storyboard */; };
+		5B837D1F28383B0000E81A7B /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B837D1E28383B0000E81A7B /* GradientView.swift */; };
+		5B837D212840283E00E81A7B /* PlayListDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B837D202840283E00E81A7B /* PlayListDetailViewController.swift */; };
+		5B837D2428403C6700E81A7B /* ItemPlayListDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B837D2328403C6700E81A7B /* ItemPlayListDetailTableViewCell.swift */; };
+		5B837D27284040C200E81A7B /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 5B837D26284040C200E81A7B /* SDWebImage */; };
+		5B837D29284040C200E81A7B /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 5B837D28284040C200E81A7B /* SDWebImageMapKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,10 +42,16 @@
 		48D9F03128302C76006A1F64 /* Spotify+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Spotify+String.swift"; sourceTree = "<group>"; };
 		48D9F03328302C93006A1F64 /* Spotify+Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Spotify+Image.swift"; sourceTree = "<group>"; };
 		48D9F03528303EA9006A1F64 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
-		48D9F0372830AE22006A1F64 /* PlayList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayList.swift; sourceTree = "<group>"; };
+		48D9F0372830AE22006A1F64 /* Playlist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Playlist.swift; sourceTree = "<group>"; };
 		48D9F0392830AEB4006A1F64 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
 		48D9F03B2830B101006A1F64 /* PlayListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayListViewModel.swift; sourceTree = "<group>"; };
 		48D9F03D2830B21A006A1F64 /* LibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViewController.swift; sourceTree = "<group>"; };
+		5B837D1828381C9900E81A7B /* PlayListDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayListDetail.swift; sourceTree = "<group>"; };
+		5B837D1A2838373200E81A7B /* PlayListDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayListDetailViewModel.swift; sourceTree = "<group>"; };
+		5B837D1C28383A7100E81A7B /* PlaylistDetail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PlaylistDetail.storyboard; sourceTree = "<group>"; };
+		5B837D1E28383B0000E81A7B /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		5B837D202840283E00E81A7B /* PlayListDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayListDetailViewController.swift; sourceTree = "<group>"; };
+		5B837D2328403C6700E81A7B /* ItemPlayListDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemPlayListDetailTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +59,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B837D29284040C200E81A7B /* SDWebImageMapKit in Frameworks */,
+				5B837D27284040C200E81A7B /* SDWebImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +86,7 @@
 		48D9F0152830287C006A1F64 /* Spotif-clone-B */ = {
 			isa = PBXGroup;
 			children = (
+				5B837D2228403BB700E81A7B /* ViewCell */,
 				48D9F03028302C1C006A1F64 /* Helper */,
 				48D9F02F28302C04006A1F64 /* Onboarding */,
 				48D9F02E28302BE3006A1F64 /* Screens */,
@@ -89,6 +106,7 @@
 			children = (
 				48D9F01A2830287C006A1F64 /* ViewController.swift */,
 				48D9F03D2830B21A006A1F64 /* LibraryViewController.swift */,
+				5B837D202840283E00E81A7B /* PlayListDetailViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -98,6 +116,7 @@
 			children = (
 				48D9F0392830AEB4006A1F64 /* Request.swift */,
 				48D9F03B2830B101006A1F64 /* PlayListViewModel.swift */,
+				5B837D1A2838373200E81A7B /* PlayListDetailViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -105,7 +124,8 @@
 		48D9F02D28302B82006A1F64 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				48D9F0372830AE22006A1F64 /* PlayList.swift */,
+				48D9F0372830AE22006A1F64 /* Playlist.swift */,
+				5B837D1828381C9900E81A7B /* PlayListDetail.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -115,6 +135,7 @@
 			children = (
 				48D9F01C2830287C006A1F64 /* Main.storyboard */,
 				48D9F03528303EA9006A1F64 /* Home.storyboard */,
+				5B837D1C28383A7100E81A7B /* PlaylistDetail.storyboard */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -130,10 +151,19 @@
 		48D9F03028302C1C006A1F64 /* Helper */ = {
 			isa = PBXGroup;
 			children = (
-				48D9F03128302C76006A1F64 /* Spotify+String.swift */,
 				48D9F03328302C93006A1F64 /* Spotify+Image.swift */,
+				48D9F03128302C76006A1F64 /* Spotify+String.swift */,
+				5B837D1E28383B0000E81A7B /* GradientView.swift */,
 			);
 			path = Helper;
+			sourceTree = "<group>";
+		};
+		5B837D2228403BB700E81A7B /* ViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				5B837D2328403C6700E81A7B /* ItemPlayListDetailTableViewCell.swift */,
+			);
+			path = ViewCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +182,10 @@
 			dependencies = (
 			);
 			name = "Spotif-clone-B";
+			packageProductDependencies = (
+				5B837D26284040C200E81A7B /* SDWebImage */,
+				5B837D28284040C200E81A7B /* SDWebImageMapKit */,
+			);
 			productName = "Spotif-clone-B";
 			productReference = 48D9F0132830287C006A1F64 /* Spotif-clone-B.app */;
 			productType = "com.apple.product-type.application";
@@ -180,6 +214,9 @@
 				Base,
 			);
 			mainGroup = 48D9F00A2830287C006A1F64;
+			packageReferences = (
+				5B837D25284040C200E81A7B /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
 			productRefGroup = 48D9F0142830287C006A1F64 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -196,6 +233,7 @@
 			files = (
 				48D9F02328302880006A1F64 /* LaunchScreen.storyboard in Resources */,
 				48D9F02028302880006A1F64 /* Assets.xcassets in Resources */,
+				5B837D1D28383A7100E81A7B /* PlaylistDetail.storyboard in Resources */,
 				48D9F01E2830287C006A1F64 /* Main.storyboard in Resources */,
 				48D9F03628303EAA006A1F64 /* Home.storyboard in Resources */,
 			);
@@ -209,13 +247,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				48D9F03C2830B102006A1F64 /* PlayListViewModel.swift in Sources */,
+				5B837D1B2838373200E81A7B /* PlayListDetailViewModel.swift in Sources */,
+				5B837D1F28383B0000E81A7B /* GradientView.swift in Sources */,
+				5B837D212840283E00E81A7B /* PlayListDetailViewController.swift in Sources */,
 				48D9F01B2830287C006A1F64 /* ViewController.swift in Sources */,
 				48D9F03428302C93006A1F64 /* Spotify+Image.swift in Sources */,
 				48D9F03228302C76006A1F64 /* Spotify+String.swift in Sources */,
-				48D9F0382830AE22006A1F64 /* PlayList.swift in Sources */,
+				48D9F0382830AE22006A1F64 /* Playlist.swift in Sources */,
 				48D9F03A2830AEB4006A1F64 /* Request.swift in Sources */,
+				5B837D2428403C6700E81A7B /* ItemPlayListDetailTableViewCell.swift in Sources */,
 				48D9F0172830287C006A1F64 /* AppDelegate.swift in Sources */,
 				48D9F03E2830B21A006A1F64 /* LibraryViewController.swift in Sources */,
+				5B837D1928381C9900E81A7B /* PlayListDetail.swift in Sources */,
 				48D9F0192830287C006A1F64 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -434,6 +477,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5B837D25284040C200E81A7B /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5B837D26284040C200E81A7B /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5B837D25284040C200E81A7B /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+		5B837D28284040C200E81A7B /* SDWebImageMapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5B837D25284040C200E81A7B /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImageMapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 48D9F00B2830287C006A1F64 /* Project object */;
 }

@@ -10,7 +10,7 @@ import UIKit
 class LibraryViewController: UIViewController{
     
     
-    
+    var selectId: String? = nil
     let playListViewModel = PlayListViewModel()
     @IBOutlet weak var imageProfile: UIImageView!
     @IBOutlet weak var tableView: UITableView!
@@ -61,6 +61,18 @@ extension LibraryViewController: UITableViewDelegate, UITableViewDataSource {
             
             return cell
         }
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+            selectId = playListViewModel.playList?.items[indexPath.section].id
+            performSegue(withIdentifier: "detail", sender: self)
+        }
+        
+        override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+            if segue.identifier == "detail" {
+                let playlistDetail = segue.destination as! PlayListDetailViewController
+                playlistDetail.id = selectId
+            }
+        }
+    
         
         func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
             let uiView = UIView()
