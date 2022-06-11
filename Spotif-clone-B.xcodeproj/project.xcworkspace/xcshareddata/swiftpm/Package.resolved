@@ -1,6 +1,8 @@
 {
   "pins" : [
     {
+<<<<<<< HEAD
+=======
       "identity" : "abseil-cpp-swiftpm",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/firebase/abseil-cpp-SwiftPM.git",
@@ -100,6 +102,7 @@
       }
     },
     {
+>>>>>>> deb509208e4cef92b8ed31ff54743cfecb453a56
       "identity" : "sdwebimage",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/SDWebImage/SDWebImage",
@@ -107,6 +110,8 @@
         "revision" : "2e63d0061da449ad0ed130768d05dceb1496de44",
         "version" : "5.12.5"
       }
+<<<<<<< HEAD
+=======
     },
     {
       "identity" : "swift-protobuf",
@@ -116,6 +121,7 @@
         "revision" : "e1499bc69b9040b29184f7f2996f7bab467c1639",
         "version" : "1.19.0"
       }
+>>>>>>> deb509208e4cef92b8ed31ff54743cfecb453a56
     }
   ],
   "version" : 2

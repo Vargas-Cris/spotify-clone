@@ -14,17 +14,18 @@ class Request {
     let BASE_URL = "https://api.spotify.com/v1/"
     
     func getDataFromAPI(url: String) async -> Data? {
-        do {
-            var request = URLRequest(url: HelperString.getURLFromString(url: "\(BASE_URL)\(url)")!)
-            request.httpMethod = "GET"
-            request.addValue("Bearer \(token)", forHTTPHeaderField: "Authorization")
-            
-            let (data, _) = try await URLSession.shared.data(for: request)
-            
-            return data
-        } catch {
-            return nil
-        }
-    }
-    
-}
+           do {
+               let urlParse = url.replacingOccurrences(of: " ", with: "%20")
+               var request = URLRequest(url: HelperString.getURLFromString(url: "\(BASE_URL)\(urlParse)")!)
+               request.httpMethod = "GET"
+               request.addValue("Bearer \(token)", forHTTPHeaderField: "Authorization")
+               
+               let (data, _) = try await URLSession.shared.data(for: request)
+               
+               return data
+           } catch {
+               return nil
+           }
+       }
+       
+   }

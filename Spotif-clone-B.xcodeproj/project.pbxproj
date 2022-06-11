@@ -20,11 +20,14 @@
 		48D9F03A2830AEB4006A1F64 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D9F0392830AEB4006A1F64 /* Request.swift */; };
 		48D9F03C2830B102006A1F64 /* PlayListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D9F03B2830B101006A1F64 /* PlayListViewModel.swift */; };
 		48D9F03E2830B21A006A1F64 /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D9F03D2830B21A006A1F64 /* LibraryViewController.swift */; };
+<<<<<<< HEAD
+=======
 		48D9F0402849838A006A1F64 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 48D9F03F2849838A006A1F64 /* GoogleService-Info.plist */; };
 		48D9F0432849869A006A1F64 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 48D9F0422849869A006A1F64 /* FirebaseAuth */; };
 		48D9F0452849869A006A1F64 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 48D9F0442849869A006A1F64 /* FirebaseDatabase */; };
 		48D9F0472849869A006A1F64 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 48D9F0462849869A006A1F64 /* FirebaseFirestore */; };
 		48D9F0492849869A006A1F64 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 48D9F0482849869A006A1F64 /* FirebaseStorage */; };
+>>>>>>> deb509208e4cef92b8ed31ff54743cfecb453a56
 		5B837D1928381C9900E81A7B /* PlayListDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B837D1828381C9900E81A7B /* PlayListDetail.swift */; };
 		5B837D1B2838373200E81A7B /* PlayListDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B837D1A2838373200E81A7B /* PlayListDetailViewModel.swift */; };
 		5B837D1D28383A7100E81A7B /* PlaylistDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B837D1C28383A7100E81A7B /* PlaylistDetail.storyboard */; };
@@ -33,6 +36,13 @@
 		5B837D2428403C6700E81A7B /* ItemPlayListDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B837D2328403C6700E81A7B /* ItemPlayListDetailTableViewCell.swift */; };
 		5B837D27284040C200E81A7B /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 5B837D26284040C200E81A7B /* SDWebImage */; };
 		5B837D29284040C200E81A7B /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 5B837D28284040C200E81A7B /* SDWebImageMapKit */; };
+<<<<<<< HEAD
+		5B837DB0285539FF00E81A7B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B837DAF285539FF00E81A7B /* HomeViewController.swift */; };
+		5B837DB228553F0600E81A7B /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B837DB128553F0600E81A7B /* Search.swift */; };
+		5B837DB4285540AC00E81A7B /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B837DB3285540AC00E81A7B /* SearchViewModel.swift */; };
+		5B837DB62855472600E81A7B /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B837DB52855472600E81A7B /* SearchTableViewCell.swift */; };
+=======
+>>>>>>> deb509208e4cef92b8ed31ff54743cfecb453a56
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,13 +61,23 @@
 		48D9F0392830AEB4006A1F64 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
 		48D9F03B2830B101006A1F64 /* PlayListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayListViewModel.swift; sourceTree = "<group>"; };
 		48D9F03D2830B21A006A1F64 /* LibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViewController.swift; sourceTree = "<group>"; };
+<<<<<<< HEAD
+=======
 		48D9F03F2849838A006A1F64 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+>>>>>>> deb509208e4cef92b8ed31ff54743cfecb453a56
 		5B837D1828381C9900E81A7B /* PlayListDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayListDetail.swift; sourceTree = "<group>"; };
 		5B837D1A2838373200E81A7B /* PlayListDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayListDetailViewModel.swift; sourceTree = "<group>"; };
 		5B837D1C28383A7100E81A7B /* PlaylistDetail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PlaylistDetail.storyboard; sourceTree = "<group>"; };
 		5B837D1E28383B0000E81A7B /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		5B837D202840283E00E81A7B /* PlayListDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayListDetailViewController.swift; sourceTree = "<group>"; };
 		5B837D2328403C6700E81A7B /* ItemPlayListDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemPlayListDetailTableViewCell.swift; sourceTree = "<group>"; };
+<<<<<<< HEAD
+		5B837DAF285539FF00E81A7B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		5B837DB128553F0600E81A7B /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
+		5B837DB3285540AC00E81A7B /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
+		5B837DB52855472600E81A7B /* SearchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewCell.swift; sourceTree = "<group>"; };
+=======
+>>>>>>> deb509208e4cef92b8ed31ff54743cfecb453a56
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,11 +86,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B837D29284040C200E81A7B /* SDWebImageMapKit in Frameworks */,
+<<<<<<< HEAD
+				5B837D27284040C200E81A7B /* SDWebImage in Frameworks */,
+=======
 				48D9F0432849869A006A1F64 /* FirebaseAuth in Frameworks */,
 				48D9F0452849869A006A1F64 /* FirebaseDatabase in Frameworks */,
 				48D9F0472849869A006A1F64 /* FirebaseFirestore in Frameworks */,
 				5B837D27284040C200E81A7B /* SDWebImage in Frameworks */,
 				48D9F0492849869A006A1F64 /* FirebaseStorage in Frameworks */,
+>>>>>>> deb509208e4cef92b8ed31ff54743cfecb453a56
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,6 +142,10 @@
 				48D9F01A2830287C006A1F64 /* ViewController.swift */,
 				48D9F03D2830B21A006A1F64 /* LibraryViewController.swift */,
 				5B837D202840283E00E81A7B /* PlayListDetailViewController.swift */,
+<<<<<<< HEAD
+				5B837DAF285539FF00E81A7B /* HomeViewController.swift */,
+=======
+>>>>>>> deb509208e4cef92b8ed31ff54743cfecb453a56
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -128,6 +156,10 @@
 				48D9F0392830AEB4006A1F64 /* Request.swift */,
 				48D9F03B2830B101006A1F64 /* PlayListViewModel.swift */,
 				5B837D1A2838373200E81A7B /* PlayListDetailViewModel.swift */,
+<<<<<<< HEAD
+				5B837DB3285540AC00E81A7B /* SearchViewModel.swift */,
+=======
+>>>>>>> deb509208e4cef92b8ed31ff54743cfecb453a56
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -137,6 +169,10 @@
 			children = (
 				48D9F0372830AE22006A1F64 /* Playlist.swift */,
 				5B837D1828381C9900E81A7B /* PlayListDetail.swift */,
+<<<<<<< HEAD
+				5B837DB128553F0600E81A7B /* Search.swift */,
+=======
+>>>>>>> deb509208e4cef92b8ed31ff54743cfecb453a56
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -173,6 +209,10 @@
 			isa = PBXGroup;
 			children = (
 				5B837D2328403C6700E81A7B /* ItemPlayListDetailTableViewCell.swift */,
+<<<<<<< HEAD
+				5B837DB52855472600E81A7B /* SearchTableViewCell.swift */,
+=======
+>>>>>>> deb509208e4cef92b8ed31ff54743cfecb453a56
 			);
 			path = ViewCell;
 			sourceTree = "<group>";
@@ -196,10 +236,13 @@
 			packageProductDependencies = (
 				5B837D26284040C200E81A7B /* SDWebImage */,
 				5B837D28284040C200E81A7B /* SDWebImageMapKit */,
+<<<<<<< HEAD
+=======
 				48D9F0422849869A006A1F64 /* FirebaseAuth */,
 				48D9F0442849869A006A1F64 /* FirebaseDatabase */,
 				48D9F0462849869A006A1F64 /* FirebaseFirestore */,
 				48D9F0482849869A006A1F64 /* FirebaseStorage */,
+>>>>>>> deb509208e4cef92b8ed31ff54743cfecb453a56
 			);
 			productName = "Spotif-clone-B";
 			productReference = 48D9F0132830287C006A1F64 /* Spotif-clone-B.app */;
@@ -231,7 +274,10 @@
 			mainGroup = 48D9F00A2830287C006A1F64;
 			packageReferences = (
 				5B837D25284040C200E81A7B /* XCRemoteSwiftPackageReference "SDWebImage" */,
+<<<<<<< HEAD
+=======
 				48D9F0412849869A006A1F64 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+>>>>>>> deb509208e4cef92b8ed31ff54743cfecb453a56
 			);
 			productRefGroup = 48D9F0142830287C006A1F64 /* Products */;
 			projectDirPath = "";
@@ -268,13 +314,23 @@
 				5B837D1F28383B0000E81A7B /* GradientView.swift in Sources */,
 				5B837D212840283E00E81A7B /* PlayListDetailViewController.swift in Sources */,
 				48D9F01B2830287C006A1F64 /* ViewController.swift in Sources */,
+				5B837DB0285539FF00E81A7B /* HomeViewController.swift in Sources */,
 				48D9F03428302C93006A1F64 /* Spotify+Image.swift in Sources */,
 				48D9F03228302C76006A1F64 /* Spotify+String.swift in Sources */,
 				48D9F0382830AE22006A1F64 /* Playlist.swift in Sources */,
+<<<<<<< HEAD
+				5B837DB62855472600E81A7B /* SearchTableViewCell.swift in Sources */,
+=======
+>>>>>>> deb509208e4cef92b8ed31ff54743cfecb453a56
 				48D9F03A2830AEB4006A1F64 /* Request.swift in Sources */,
 				5B837D2428403C6700E81A7B /* ItemPlayListDetailTableViewCell.swift in Sources */,
 				48D9F0172830287C006A1F64 /* AppDelegate.swift in Sources */,
 				48D9F03E2830B21A006A1F64 /* LibraryViewController.swift in Sources */,
+<<<<<<< HEAD
+				5B837DB228553F0600E81A7B /* Search.swift in Sources */,
+				5B837DB4285540AC00E81A7B /* SearchViewModel.swift in Sources */,
+=======
+>>>>>>> deb509208e4cef92b8ed31ff54743cfecb453a56
 				5B837D1928381C9900E81A7B /* PlayListDetail.swift in Sources */,
 				48D9F0192830287C006A1F64 /* SceneDelegate.swift in Sources */,
 			);
@@ -496,6 +552,8 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+<<<<<<< HEAD
+=======
 		48D9F0412849869A006A1F64 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
@@ -504,6 +562,7 @@
 				minimumVersion = 9.0.0;
 			};
 		};
+>>>>>>> deb509208e4cef92b8ed31ff54743cfecb453a56
 		5B837D25284040C200E81A7B /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SDWebImage/SDWebImage";
@@ -515,6 +574,8 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+<<<<<<< HEAD
+=======
 		48D9F0422849869A006A1F64 /* FirebaseAuth */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 48D9F0412849869A006A1F64 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
@@ -535,6 +596,7 @@
 			package = 48D9F0412849869A006A1F64 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseStorage;
 		};
+>>>>>>> deb509208e4cef92b8ed31ff54743cfecb453a56
 		5B837D26284040C200E81A7B /* SDWebImage */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 5B837D25284040C200E81A7B /* XCRemoteSwiftPackageReference "SDWebImage" */;
